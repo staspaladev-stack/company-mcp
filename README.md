@@ -25,8 +25,25 @@ A company folder with this contract (set `COMPANY_ROOT` to it):
 └── goose/roles/*.yaml         role recipes (optional, for describe_role)
 ```
 
+## Bare company included
+
+`starter/` is a complete, empty company: 11 role recipes, the boss recipe, role
+prompts, SQLite schema and the `company.py` CLI. No state, no hired roles, no
+project — three commands and it works:
+
+```bash
+cd starter
+uvx --with pyyaml python company.py init
+uvx --with pyyaml python company.py seed
+uvx --with pyyaml python company.py boss --project /path/to/project \
+  --task "Map the project and propose the next three steps" --budget-usd 1.0
+```
+
+Then point `COMPANY_ROOT` at that folder and this MCP server controls the same
+company from any chat. Details: [starter/QUICKSTART.md](starter/QUICKSTART.md).
+
 The company itself (role prompts, boss protocol, hiring committee) is a separate
-setup. If you do not have one, use
+setup. If you do not want one, use
 [agent-runner-mcp](https://github.com/staspaladev-stack/agent-runner-mcp)
 instead — it runs any agent without a company.
 
