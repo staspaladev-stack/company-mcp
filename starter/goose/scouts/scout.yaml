@@ -1,0 +1,58 @@
+version: 1.0.0
+title: Scout — разведчик
+description: 'Одноразовый поиск: найти источники и вернуть факты со ссылками.'
+parameters:
+- key: query
+  input_type: string
+  requirement: required
+  description: Что искать
+- key: focus
+  input_type: string
+  requirement: optional
+  default: готовое решение, официальная документация, лицензия
+  description: На что смотреть
+- key: task
+  input_type: string
+  requirement: optional
+  default: ''
+  description: Контекст задачи
+settings:
+  max_turns: 12
+  temperature: 0.1
+extensions:
+- type: builtin
+  name: developer
+- type: stdio
+  name: fetch
+  cmd: uvx
+  args:
+  - mcp-server-fetch
+  timeout: 300
+- type: stdio
+  name: context7
+  cmd: npx
+  args:
+  - -y
+  - '@upstash/context7-mcp'
+  timeout: 300
+- type: platform
+  name: skills
+instructions: |
+  # SCOUT
+
+  Ты разведчик. Только чтение и поиск. Не пиши файлы и не меняй проект.
+  Найди по запросу 2–5 лучших источников: официальная документация, GitHub,
+  стандарт, issue tracker. Для каждого дай:
+  - ссылку;
+  - что это;
+  - версию/дату;
+  - лицензию;
+  - чем подходит и чем не подходит;
+  - что не проверено.
+
+  Если источник не открылся или факт не подтверждён — скажи прямо.
+  Не выдумывай URL и версии. Верни короткий отчёт, без воды.
+prompt: |
+  Запрос: {{ query }}
+  Фокус: {{ focus }}
+  Контекст: {{ task }}
