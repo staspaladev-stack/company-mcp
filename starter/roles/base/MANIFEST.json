@@ -1,0 +1,97 @@
+{
+  "locked_at": "2026-10-19T14:57:37+00:00",
+  "files": [
+    {
+      "path": "goose\\roles\\architect.yaml",
+      "sha256": "9011f25afee0f2dad14e05be2053d53db108a10d125fae8217ce102502359474"
+    },
+    {
+      "path": "goose\\roles\\fixer.yaml",
+      "sha256": "2aaf27b37c2d96b8e1c128d3061bf705d371f5ef6dad57442d95dd8689f54b7c"
+    },
+    {
+      "path": "goose\\roles\\hr.yaml",
+      "sha256": "070dc561963196457deec1668e2bc1c091d2d06251596269027046651455bebd"
+    },
+    {
+      "path": "goose\\roles\\judge.yaml",
+      "sha256": "653285ec63db9c2aced6b4056eb795b140a827e3bd7e30fb40290573599b8d32"
+    },
+    {
+      "path": "goose\\roles\\manager.yaml",
+      "sha256": "4b0b1a17929d22d4027e0cceb4aeea81cf64a7d6398f834240f34de6e4c40013"
+    },
+    {
+      "path": "goose\\roles\\planner.yaml",
+      "sha256": "b6dc607aac33c0a5dac2ca98fd4b9a7020849e5b6b6a12636ee65b530d25ea49"
+    },
+    {
+      "path": "goose\\roles\\programmer.yaml",
+      "sha256": "ce6273cafda94fc07fd993fa3a2b44269a835125104242808eb649791fbe71b0"
+    },
+    {
+      "path": "goose\\roles\\researcher.yaml",
+      "sha256": "86446d6f9178ab9619e74434fa4cce02121ee705b08f5bb14c8243c57b8c3c56"
+    },
+    {
+      "path": "goose\\roles\\tester_code.yaml",
+      "sha256": "906c673a22eaca544a0f2a4d98838b5b8a1623fde0cfd3f5f8a53d1e6adfd697"
+    },
+    {
+      "path": "goose\\roles\\tester_product.yaml",
+      "sha256": "f3563d48e5831066f80b7128d832f428f14029ff23620b223ebabca7387427c9"
+    },
+    {
+      "path": "goose\\roles\\worker.yaml",
+      "sha256": "08c0972021ba2ac474c3dec7550f06863a02402fcad6b0c668a5a610dfc80f43"
+    },
+    {
+      "path": "roles\\base\\README.md",
+      "sha256": "215d71697d67ee7afcc41b0b26286f387b381b1b4bac47d73f56581424247a16"
+    },
+    {
+      "path": "roles\\base\\architect.md",
+      "sha256": "f50613f3560c65d5e734ecaa4b6b4161376f223946cbb6498e323c815cf12eda"
+    },
+    {
+      "path": "roles\\base\\fixer.md",
+      "sha256": "ebddef8dca3b41c5d1ff994212192c526a08dd05d14a4be44f09423af702cd67"
+    },
+    {
+      "path": "roles\\base\\hr.md",
+      "sha256": "40339b8a2a274df4158698c98f52e4fe1fa6cbefa03373ec13de4d392935cead"
+    },
+    {
+      "path": "roles\\base\\judge.md",
+      "sha256": "8d5f54aceedf666a0ceed8fe39967d0ac75bde1d61aa3971247abf1f0ef42999"
+    },
+    {
+      "path": "roles\\base\\manager.md",
+      "sha256": "abb32e65b996b2db66c32a24d4d3dc71491a820df7e416779bdc37aaf6b9ad2c"
+    },
+    {
+      "path": "roles\\base\\planner.md",
+      "sha256": "092a6a9d3e88d9cc940824f56ed3bff495de1ea6218904a7fde4add1315b312b"
+    },
+    {
+      "path": "roles\\base\\programmer.md",
+      "sha256": "24ad18738608d37baf6eca0abca512f9955a78f2dca1114869645b17cbeb4e5e"
+    },
+    {
+      "path": "roles\\base\\researcher.md",
+      "sha256": "2b3a92f8aa4e88bf40a855743cb93726513cac61a8ff3de3e1c5da92d02088df"
+    },
+    {
+      "path": "roles\\base\\tester_code.md",
+      "sha256": "fb2be09c9a989155010abe16af7819ce01d37b2269ddafe64115b6d25d1997fb"
+    },
+    {
+      "path": "roles\\base\\tester_product.md",
+      "sha256": "20effd7f3a13fe90701b2e466ffdecf079645dc33dd0919812fb827b74dd0a29"
+    },
+    {
+      "path": "roles\\base\\worker.md",
+      "sha256": "409ca2ae35c45dbc954afaa4a2a0086d65891820cf8eecd7893f7f6f524a94d2"
+    }
+  ]
+}
